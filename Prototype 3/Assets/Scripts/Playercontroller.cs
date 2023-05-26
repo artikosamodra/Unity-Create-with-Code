@@ -38,7 +38,7 @@ public class Playercontroller : MonoBehaviour
             onGround = false;
             playerAnim.SetTrigger("Jump_trig"); //Set Trigger = fungsi untuk mentrigger componen pada animator
             dirtParticle.Stop(); //partikel di stop saat jump
-            playerSFX.PlayOneShot(jumpSFX, 1.0f); //PlayOneShot merupakan perintah play 1x ketika ter-trigger.
+            playerSFX.PlayOneShot(jumpSFX, 1.3f); //PlayOneShot merupakan perintah play 1x ketika ter-trigger.
         }
         else if (gameOver)
         {
