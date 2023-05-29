@@ -60,7 +60,7 @@ public class Playercontroller : MonoBehaviour
             playerAnim.SetBool("Death_b", true);
             playerAnim.SetInteger("DeathType_int", 1);
             explosionParticle.Play();
-            playerSFX.PlayOneShot(crashSFX, 1.0f);
+            playerSFX.PlayOneShot(crashSFX, 3.0f);
         }
     }
 }
