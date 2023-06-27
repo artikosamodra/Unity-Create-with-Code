@@ -9,15 +9,7 @@ public class Playercontroller : MonoBehaviour
     public ParticleSystem explosionParticle;
     public ParticleSystem dirtParticle;
 
-    public AudioClip jumpSFX; //membuat setting audioclip yang dipilih
-    public AudioClip crashSFX;
-    private AudioSource playerSFX; //memanggil method di komponen AudioSource
-
-    public float jumpForce; //untuk menentukan tinggi lompatan
-    public float gravityModifier; //untuk menentukan kekuatan gravitasi
-
-    public bool onGround =  true;
-    public bool gameOver;
+//
 
     // Start is called before the first frame update
     void Start()
