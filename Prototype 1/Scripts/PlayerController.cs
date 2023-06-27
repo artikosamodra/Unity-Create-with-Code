@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour //Script setting kontrol dari obje
 {
     //rubah public menjadi private agar tidak dapat dirubah oleh pemain
     private float speed = 10.0f;
-    private float turnSpeed = 25.0f;
+    private float turnSpeed = 22.0f;
     private float horizontalInput; // variable kanan kiri
     private float forwardInput; //variable maju mundur
 
